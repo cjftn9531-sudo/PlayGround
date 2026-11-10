@@ -24,7 +24,7 @@
       <div class="wave-pill"><span class="pulse"></span><span id="wave-label">준비 완료</span><b id="wave-num"></b></div>
     </section>
     <div id="toast" class="toast"></div>
-    <div class="brand-caption"><span>도축장 골목</span><i></i><span id="enemy-count">도깨비 0</span></div>
+    <div class="brand-caption"><span>넓은 도축장 골목</span><i></i><span id="enemy-count">도깨비 0</span><i></i><span class="relic-count">유물 <b id="relic-count">0</b></span></div>
     <div class="mobile-controls" id="mobile-controls">
       <div id="joystick" class="joystick"><div class="joy-ring"></div><div id="joy-knob" class="joy-knob"></div></div>
       <button id="attack-btn" class="attack-btn"><span class="blade-icon">⚔</span><b>베기</b><small>누르고 있기</small></button>
@@ -36,9 +36,9 @@
         <h1>고기<span>왕</span></h1>
         <p class="subtitle">도축 영웅</p>
         <div class="hero-medallion"><div class="medallion-glow"></div><div class="hero-emoji">🔪</div><span class="spark s1">✦</span><span class="spark s2">✧</span></div>
-        <p class="intro">골목의 도깨비를 물리치고<br>전설의 고기를 모아라!</p>
+        <p class="intro">용감한 도축 영웅과 함께<br>넓은 골목에서 도깨비를 물리쳐요!</p>
         <button id="start-btn" class="primary-btn">사냥 시작 <span>→</span></button>
-        <div class="mini-guide"><span>◉ 이동</span><span>✦ 베기</span><span>⬆ 성장</span></div>
+        <div class="mini-guide"><span>◉ 이동</span><span>✦ 베기</span><span>⬆ 성장</span></div><small class="rarity-guide">유물 등급: 일반 · 희귀 · 영웅 · 전설</small>
       </div>
     </div>
     <div class="overlay hidden" id="level-screen">
@@ -51,7 +51,6 @@
       <div class="menu-card compact-card"><div class="eyebrow"><span></span> 오늘의 사냥 결과 <span></span></div><h2>잠시 쉬어가요</h2><div class="result-score"><b id="final-kills">0</b><span>마리 처치</span></div><p>모은 고기 <b id="final-meat">0</b>개 · 코인 <b id="final-coins">0</b>개</p><button id="retry-btn" class="primary-btn">다시 도전 <span>→</span></button></div>
     </div>
     <button id="pause-btn" class="pause-btn" aria-label="일시 정지">Ⅱ</button>
-    <div class="toast" id="toast-2"></div>
   </main>
   <script type="module" src="game.js"></script>
 </body>
